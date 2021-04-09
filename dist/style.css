@@ -1,0 +1,130 @@
+/* Setup basics CSS */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+html {
+	font-size: 62.5%; /* 1rem = 10px */
+}
+body {
+	font-family: "Lato", sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	/* width: 100%; */
+	position: relative;
+	min-height: 80rem;
+	background-image: url("../dist/images/bg_img.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+a {
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin-bottom: 10px;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+textarea,
+button {
+	outline: none;
+	box-shadow: none;
+	font-family: "Lato", sans-serif;
+}
+.wrapper {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+#container{
+	margin: 1rem;
+}
+.header__group {
+	display: flex;
+	justify-content: flex-end;
+}
+.header__home,
+.header__menu,
+.header__about
+ {
+	font-size: 2rem;	
+    text-align: center;
+	margin-top: 3rem;
+    margin-right: 2rem;
+	padding-bottom: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+	border-bottom: 1px solid transparent;
+}
+.header__group li:hover{
+	border-bottom: 1px solid #fff;
+	transition-duration: 0.25s;	
+}
+.btn__home{
+	padding: 1rem 2rem;
+	border: solid 1px #fff;
+	border-radius: 5px;
+}
+.btn__home:hover{
+	background-color: #fff;
+	color: #333;
+	transition: lease-in;
+}
+.description{
+	margin: 5rem auto;
+	font-size: 1.6rem;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 1rem;
+}
+.description h2{
+	color: #fff;
+	font-size: 2rem;
+}
+
+.mail{
+	padding: 10rem 1.5rem;
+	text-align: center;
+}
+.mail__logo {
+	margin: 0 auto 3.5rem;
+}
+.mail__text {
+	font-size: 2.4rem;
+	font-style: italic;
+	margin-bottom: 3.5rem;
+	display: inline-block;
+}
+.mail__form {
+	display: flex;
+	justify-content: space-between;
+	max-width: 54rem;
+	margin: 0 auto;
+}
+.mail__form-inp {
+	border: 1px solid #fff;
+	padding: 2.5rem;
+	font-style: italic;
+	font-size: 2rem;
+	width: 74%;
+}
+.mail__form-btn {
+	width: 25%;
+	border: 0;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 2.4rem;
+	font-weight: 300;
+	
+}

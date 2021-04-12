@@ -1,0 +1,1 @@
+document.querySelector(".header__menu").addEventListener("click",(()=>{document.querySelector("#container").innerHTML='\n        <div class="description ">\n            <div class="img__contain">\n                <img src="./images/menu_img.jpg">\n            </div>\n        </div>\n        \n    '}));
